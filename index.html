@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />\
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Vite App</title>
+</head>
+
+<body>
+  <section class="flex flex-col items-center justify-center min-h-screen">
+
+
+
+    <form class="p-6 border border-primary w-11/12 mx-auto md:w-[40rem] space-y-6" id="form">
+      <div class="flex items-center gap-4">
+        <div class="flex items-center gap-3">
+          <input type="radio" name="gender" id="man" value="man" class="radio radio-primary" checked />
+          <label for="man">Hombre</label>
+        </div>
+        <div class="flex items-center gap-3">
+          <input type="radio" name="gender" id="woman" value="woman" class="radio radio-primary" />
+          <label for="woman">Mujer</label>
+        </div>
+
+      </div>
+
+      <!-- <div role="alert" class="alert alert-info w-11/12 mx-auto md:w-[40rem] mb-6" id="alert-choise-student">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-6 h-6 stroke-current shrink-0">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          /svg>
+          <span>Escogiste al alumno ${nameStudent}</span>
+      </div> -->
+
+
+      <select class="w-full max-w-xs select select-primary" name="students" id="select_student">
+
+
+      </select>
+    </form>
+
+
+  </section>
+
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
